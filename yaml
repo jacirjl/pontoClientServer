@@ -3,4 +3,4 @@ build:
     - pip install poetry
   install:
     - poetry install
-  start: python main.py  # ou substitua por seu comando real
+  start: python servidor.py  # ou substitua por seu comando real
