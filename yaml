@@ -1,6 +1,2 @@
 build:
-  preInstall:
-    - pip install poetry
-  install:
-    - poetry install
   start: python app.py  # ou substitua por seu comando real
