@@ -3,4 +3,4 @@ services:
     name: ponto-servidor
     env: python
     buildCommand: pip install -r requirements.txt
-    Start Command: gunicorn app:app
+    startCommand: gunicorn app:app
