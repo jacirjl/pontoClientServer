@@ -1,2 +1,5 @@
 build:
-  ci: poetry install
+  preInstall:
+    - pip install poetry
+  install:
+    - poetry install
