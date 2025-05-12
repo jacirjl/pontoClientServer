@@ -1,6 +1,0 @@
-build:
-  ci:
-    - pip install -r requirements.txt
-
-start:
-  - gunicorn app:app
