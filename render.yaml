@@ -1,6 +1,6 @@
-services:
-  - type: web
-    name: ponto-servidor
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn src.app:app
+build:
+  ci:
+    - pip install -r requirements.txt
+
+start:
+  - gunicorn app:app
