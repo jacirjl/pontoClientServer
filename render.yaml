@@ -5,7 +5,6 @@ build:
 start:
   - gunicorn app:app
 
-
 envVars:
   - key: FLASK_ENV
     value: production
